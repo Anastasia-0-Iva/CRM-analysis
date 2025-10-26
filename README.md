@@ -28,20 +28,20 @@ CRM_analysis — это проект, предназначенный для ан
     Выполните в консоли:
 
 **Для Windows:**
-    ```
-    git clone git@github.com:Anastasia-0-Iva/CRM-analysis.git
-    cd CRM_analysis
-    python -m venv venv
-    .\venv\Scripts\activate
-    poetry install 
-    ```
+```
+git clone git@github.com:Anastasia-0-Iva/CRM-analysis.git
+cd CRM_analysis
+python -m venv venv
+.\venv\Scripts\activate
+poetry install 
+```
 
 **Для Linux/macOS:**
-    ```
-    git clone git@github.com:Anastasia-0-Iva/CRM-analysis.git
-    cd CRM_analysis
-    python3 -m venv venv
-    source venv/bin/activate
-    poetry install 
-    ```
+```
+git clone git@github.com:Anastasia-0-Iva/CRM-analysis.git
+cd CRM_analysis
+python3 -m venv venv
+source venv/bin/activate
+poetry install 
+```
 
