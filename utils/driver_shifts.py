@@ -2,9 +2,9 @@ from datetime import datetime, timedelta
 import requests
 from config.main_config import API_KEY, GET_CHANGE_URL
 from utils.get_signatures_for_api import get_signature
-import user_id
+import get_users
 
-driver_ids = user_id.get_parking_drivers_with_fio()
+driver_ids = get_users.get_parking_drivers_with_fio()
 print("Всего водителей:", len(driver_ids))
 
 sample = driver_ids
